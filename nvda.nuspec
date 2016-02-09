@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nvda</id>
+    <title>NVDA</title>
+    <version>2015.4</version>
+    <authors>NVAccess</authors>
+    <owners>Bram Duvigneau</owners>
+    <summary>A free and open source screenreader for Windows</summary>
+    <description>
+NVDA (NonVisual Desktop Access) is a free "screen reader" which enables blind and vision impaired people to use computers. It reads the text on the screen in a computerised voice. You can control what is read to you by moving the cursor to the relevant area of text with a mouse or the arrows on your keyboard.
+
+NVDA can also convert the text into braille if the computer user owns a device called a "braille display".
+
+NVDA provides the key to education and employment for many blind people. It also provides access to social networking, online shopping, banking and news.
+NVDA works with Microsoft Windows. You can download it to your PC, or to a USB stick which you can use with any computer.
+
+Normally screen readers are expensive, making them unaffordable for many blind people. NVDA is free. It's been downloaded 70,000+ times, in 43 languages.
+    </description>
+    <projectUrl>http://www.nvaccess.org/</projectUrl>
+    <projectSourceUrl>https://github.com/nvaccess/nvda</projectSourceUrl>
+    <packageSourceUrl>https://github.com/bramd/chocolatey-nvda</packageSourceUrl>
+    <releaseNotes>http://www.nvaccess.org/files/nvda/releases/2015.4/nvda_2015.4_changes.html</releaseNotes>
+    <tags>screenreader admin</tags>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
+    <iconUrl>http://community.nvda-project.org/chrome/site/images/nvda_100x100white.png</iconUrl>
+  </metadata>
+</package>
