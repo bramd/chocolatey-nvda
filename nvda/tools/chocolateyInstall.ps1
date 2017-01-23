@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvda'
-$packageVersion = '2016.1'
+$packageVersion = '2016.4'
 $fileType = 'exe'
 $url = "https://www.nvaccess.org/download/nvda/releases/$packageVersion/nvda_$packageVersion.exe"
 $silentArgs = '--install-silent'
