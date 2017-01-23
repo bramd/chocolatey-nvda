@@ -1,7 +1,7 @@
 ﻿$packageName = 'nvda'
 $packageVersion = '2016.4'
 $fileType = 'exe'
-$url = "https://www.nvaccess.org/download/nvda/releases/$packageVersion/nvda_$packageVersion.exe"
+$file = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\\nvda_$packageVersion.exe"
 $silentArgs = '--install-silent'
 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url
+Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file
