@@ -3,7 +3,7 @@
   <metadata>
     <id>nvda</id>
     <title>NVDA</title>
-    <version>2017.1</version>
+    <version>2017.2</version>
     <authors>NVAccess</authors>
     <owners>Bram Duvigneau</owners>
     <summary>A free and open source screenreader for Windows</summary>
@@ -20,7 +20,7 @@ Normally screen readers are expensive, making them unaffordable for many blind p
     <projectUrl>http://www.nvaccess.org/</projectUrl>
     <projectSourceUrl>https://github.com/nvaccess/nvda</projectSourceUrl>
     <packageSourceUrl>https://github.com/bramd/chocolatey-nvda</packageSourceUrl>
-    <releaseNotes>http://www.nvaccess.org/files/nvda/releases/2017.1/nvda_2017.1_changes.html</releaseNotes>
+    <releaseNotes>http://www.nvaccess.org/files/nvda/releases/2017.2/nvda_2017.2_changes.html</releaseNotes>
     <tags>screenreader admin</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->

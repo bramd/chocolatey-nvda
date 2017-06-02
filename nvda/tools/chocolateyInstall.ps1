@@ -1,5 +1,5 @@
 ﻿$packageName = 'nvda'
-$packageVersion = '2017.1'
+$packageVersion = '2017.2'
 $fileType = 'exe'
 $file = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\\nvda_$packageVersion.exe"
 $silentArgs = '--install-silent'
