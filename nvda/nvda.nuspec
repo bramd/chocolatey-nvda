@@ -22,8 +22,13 @@ Normally screen readers are expensive, making them unaffordable for many blind p
     <packageSourceUrl>https://github.com/bramd/chocolatey-nvda</packageSourceUrl>
     <releaseNotes>http://www.nvaccess.org/files/nvda/releases/2017.2/nvda_2017.2_changes.html</releaseNotes>
     <tags>screenreader admin</tags>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <licenseUrl>https://github.com/nvaccess/nvda/blob/master/copying.txt</licenseUrl>
+    <copyright>© 2006-2017 NVDA Contributors</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
     <iconUrl>http://community.nvda-project.org/chrome/site/images/nvda_100x100white.png</iconUrl>
   </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

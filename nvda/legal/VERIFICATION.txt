@@ -1,0 +1,18 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The embedded software have been downloaded from the listed download
+location on <https://www.nvaccess.org/download/>
+and can be verified by doing the following:
+
+1. Download the following <https://www.nvaccess.org/download/nvda/releases/2017.2/nvda_2017.2.exe>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum: 5B902A9A6F2BC8D520DB7C9DE44D133FC7351CD56FEA1119A5D32E48A67BDB86
+
+The file 'COPYING.txt' has been obtained from <https://github.com/nvaccess/nvda/blob/release-2017.2/copying.txt>
