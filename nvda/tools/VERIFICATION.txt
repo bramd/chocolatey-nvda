@@ -15,4 +15,4 @@ and can be verified by doing the following:
   checksum type: sha256
   checksum: 6AFBC331BD939B59A3D329EB5250B0D6E7C78F24116BF9968AEA0E9B8AAC9CDF
 
-The file 'COPYING.txt' has been obtained from <https://github.com/nvaccess/nvda/blob/release-2017.4/copying.txt>
+The file 'LICENSE.txt' has been obtained from <https://github.com/nvaccess/nvda/blob/release-2017.4/copying.txt>
