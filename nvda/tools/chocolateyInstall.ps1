@@ -4,7 +4,8 @@ $packageName = 'nvda'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageVersion = '2017.4'
 $fileType = 'exe'
-$fileLocation = Join-Path $toolsDir "nvda_"+$packageVersion+".exe"
+$fileName = "nvda_$($packageVersion).exe"
+$fileLocation = Join-Path $toolsDir $fileName
 $silentArgs = '--install-silent'
 
 

@@ -28,7 +28,6 @@ Normally screen readers are expensive, making them unaffordable for many blind p
     <iconUrl>http://community.nvda-project.org/chrome/site/images/nvda_100x100white.png</iconUrl>
   </metadata>
   <files>
-    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
