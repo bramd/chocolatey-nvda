@@ -2,7 +2,7 @@
 
 $packageName = 'nvda'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$packageVersion = '2018.3.2'
+$packageVersion = '2018.4'
 $fileType = 'exe'
 $fileName = "nvda_$($packageVersion).exe"
 $fileLocation = Join-Path $toolsDir $fileName
@@ -21,7 +21,7 @@ $packageArgs = @{
   # To determine checksums, you can get that from the original site if provided. 
   # You can also use checksum.exe (choco install checksum) and use it 
   # e.g. checksum -t sha256 -f path\to\file
-  checksum      = '5DC4817A4471C0304DE23F2A7B820B61A70B5DAF0ED58AEA24273732B9844461'
+  checksum      = '5BE84D3E8C5AE88409A1DCD06266B86BE875015274BCF374236D897A519D8A6D'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
 
   silentArgs   = '--install-silent'
