@@ -2,7 +2,7 @@
 
 $packageName = 'nvda'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$packageVersion = '2018.4'
+$packageVersion = '2019.1'
 $fileType = 'exe'
 $fileName = "nvda_$($packageVersion).exe"
 $fileLocation = Join-Path $toolsDir $fileName
